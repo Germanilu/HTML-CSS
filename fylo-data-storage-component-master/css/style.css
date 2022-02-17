@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+html{
+    background: white;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url(/images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: hsl(229, 57%, 11%);
+    display: flex;
+    align-items: center;
+
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+   
+}
+
+.container__fylo{
+    width: 350px;
+    height: 200px;
+    margin-right: 40px;
+    background:  hsl(228, 56%, 26%); 
+    border-radius: 5px;
+    border-top-right-radius: 120px;
+    position: relative;
+    
+}
+
+.logo{
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+}
+
+.docs{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    padding: 15px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+
+.folder{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    padding: 15px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+
+.upload{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 170px;
+    padding: 15px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+
+
+    
+.container__usage{
+    width: 550px;
+    height: 150px;
+    background:  hsl(228, 56%, 26%); 
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: -50px;
+}
+
+p{
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 15px;
+    top: 30px;
+    left: 30px;
+}
+
+.gb{
+    font-weight: 600;
+    color: white;
+}
+
+.container__linea{
+    width: 480px;
+    height: 22px;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    background-color: hsl(229, 57%, 11%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+}
+
+.gradient{
+    width: 400px;
+    height: 16px;
+    background-image: linear-gradient(  to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 10px;
+}
+
+.palla{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    float: right;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.containergb{
+    width: 480px;
+    height: 20px;
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: white;
+}
+
+.polygon{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    position: absolute;
+    top: -40px;
+    right: 40px;
+    display: flex;
+}
+
+
+.poly{
+    width: 120px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: 40.5px;
+    clip-path: polygon(100% 0, 70% 0, 100% 22%);
+}
+
+
+.text{
+    width: 150px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.514);
+    margin: 0 auto;
+    font-weight: 600;
+    top: 17px;
+    
+}
+
+.quantity{
+    font-weight: 600;
+    font-size: 30px;
+    padding-right: 10px;
+    color: black;
+}
+
+@media screen and (max-width:375px){
+    body{
+        font-family: 'Raleway', sans-serif;
+        width: 375px;
+        height: 800px;
+        margin: 0 auto;
+        background-image: url(/images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-color: hsl(229, 57%, 11%);
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .container{
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+
+    .container__fylo{
+        width: 350px;
+        height: 200px;
+        margin-right: 1px;
+        background:  hsl(228, 56%, 26%); 
+        border-radius: 5px;
+        border-top-right-radius: 120px;
+        position: relative;
+        
+    }
+
+    .container__usage{
+        width: 350px;
+        height: 170px;
+        background:  hsl(228, 56%, 26%); 
+        position: relative;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    
+    .container__linea{
+        width: 280px;
+        height: 22px;
+        border-radius: 10px;
+        position: absolute;
+        top: 80px;
+        left: 30px;
+        background-color: hsl(229, 57%, 11%);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .containergb{
+        width: 280px;
+        height: 20px;
+        position: absolute;
+        top: 110px;
+        left: 30px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        color: white;
+    } 
+
+    
+p{
+    width: 80%;
+    height: 20px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 15px;
+    top: 30px;
+    left: 30px;
+}
+ 
+
+.polygon{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    position: absolute;
+    top: 140px;
+    right: 80px;
+    display: flex;
+}
+
+.text{
+    width: 150px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.514);
+    margin: 0 auto;
+    font-weight: 600;
+    top: 15px;
+    
+    
+}
+
+.quantity{
+    font-weight: 600;
+    font-size: 30px;
+    padding-right: 10px;
+    color: black;
+}
+
+.poly{
+    width: 120px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: 40.5px;
+    clip-path: polygon(100% 0, 70% 0, 100% 22%);
+    display: none;
+}
+
+
+
+}

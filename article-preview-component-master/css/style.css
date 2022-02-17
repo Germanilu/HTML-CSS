@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body{
+   background-color: hsl(210, 46%, 95%);
+   height: 100vh;
+   padding: 0.1px;
+   font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    width: 700px;
+    height: 250px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: calc(50vh - 125px);
+    position: relative;
+    
+}
+
+.img{
+    width: 37%;
+    height: 100%;
+    background-image: url(/images/drawers.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.texto{
+    width: 63%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 30px 0px 30px;
+    
+    
+}
+
+.titulo{
+    width: 100%;
+    height: 40%;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 700;
+    
+}
+.parrafo{
+    width: 100%;
+    height: 30%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.persona{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flaca{
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/avatar-michelle.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.nombre{
+    margin-left: 10px;
+
+}
+.bold{
+    font-weight: 700;
+}
+
+.java{
+    position: absolute;
+    right: 1px;
+    width: 20px;
+    height: 20px;
+   background-image: url(/images/icon-share.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   border-radius: 50%;
+   background-color: hsl(210, 46%, 95%);
+
+    
+}
+
+.divflotante{
+    width: 270px;
+    height: 70px;
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    bottom: 60px;
+    right: -75px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.x{
+    color: white;
+    text-decoration: none;
+}
+
+.share{
+    letter-spacing: 10px;
+    color: rgba(255, 255, 255, 0.562);
+}
+
+.fb{
+    width: 20px;
+    height: 20px;
+}
+
+.pint{
+    width: 20px;
+    height: 20px;
+}
+
+.twitter{
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+
+:root{
+    --color-orange: hsl(31, 77%, 52%);
+    --color-darkcyan:hsl(184, 100%, 22%);
+    --color-verydarkcyan: hsl(179, 100%, 13%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+.main{
+    width: 1440px;
+    height: 100vh;
+    padding: 0.1px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: calc(50vh - 250px);
+    display: flex;
+    
+    
+}
+
+.container__sedans{
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.container__suvs{
+    background: hsl(184, 100%, 22%);
+}
+
+.container__luxury{
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container__img{
+    width: 100%;
+    height: 15%;
+    position: relative;
+}
+
+.img__sedans{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.title{
+    padding: 40px 50px 0 50px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display' ;
+    font-weight: 400;
+}
+
+.paragraph{
+    padding: 40px 50px 0 50px;
+    line-height: 30px;
+    margin-bottom: 1px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* .button{
+    width: 100%;
+    height: 283px;
+} */
+
+.cta__sedans{
+    display: block;
+    width: 150px;
+    height: 45px;
+    margin: 70px 100px 10px 50px;
+    padding-top: 13px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: var(--color-orange);
+
+}
+
+.cta__suvs{
+    display: block;
+    width: 150px;
+    height: 45px;
+    margin: 70px 100px 10px 50px;
+    padding-top: 13px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    color: var(--color-darkcyan);
+}
+
+.cta__luxury{
+    display: block;
+    width: 150px;
+    height: 45px;
+    margin: 70px 100px 10px 50px;
+    padding-top: 13px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: var(--color-verydarkcyan);
+    font-weight: 400;
+}
+
+.cta__sedans:active{
+    background-color:transparent;
+    color: white;
+    border: 2px solid white;
+    display: block;
+    width: 150px;
+    height: 45px;
+    margin: 70px 100px 10px 50px;
+    padding-top: 11px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cta__suvs:active{
+    background-color:transparent;
+    color: white;
+    border: 2px solid white;
+    display: block;
+    width: 150px;
+    height: 45px;
+    margin: 70px 100px 10px 50px;
+    padding-top: 11px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.cta__luxury:active{
+    background-color:transparent;
+    color: white;
+    border: 2px solid white;
+    display: block;
+    width: 150px;
+    height: 45px;
+    margin: 70px 100px 10px 50px;
+    padding-top: 11px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 375px){
+   
+    .main{
+        width: 375px;
+        height: 100vh;
+        padding: 0.1px;
+    }
+    
+    .container{
+        width: 340px;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: calc(50vh - 250px);
+        display: flex;
+        flex-direction: column;   
+    }
+
+.container__sedans{
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    padding-bottom: 100px;
+    
+}
+
+.container__suvs{
+    background: hsl(184, 100%, 22%);
+    padding-bottom: 100px;
+}
+
+.container__luxury{
+    background: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    padding-bottom: 100px;
+}
+
+
+
+.cta__sedans{
+    width: 120px;
+    height: 40px;
+    margin: 20px 0 20px 50px;
+    align-items: center;
+    padding-top: 10px;
+    
+    
+}
+
+.cta__suvs{
+    width: 120px;
+    height: 40px;
+    margin: 20px 0 20px 50px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.cta__luxury{
+    width: 120px;
+    height: 40px;
+    margin: 20px 0 20px 50px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+
+}
