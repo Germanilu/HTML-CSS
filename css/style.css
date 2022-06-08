@@ -77,7 +77,7 @@ a{
     height: 100%;
     top: 0;
     left: 0;
-    background: url(/3-column-preview-card-component-main/design/desktop-design.jpg);
+    background: url(./3-column-preview-card-component-main/design/desktop-design.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -94,7 +94,7 @@ a{
     height: 100%;
     top: 0;
     left: 0;
-    background: url(/four-card-feature-section-master/design/desktop-design.jpg);
+    background: url(../four-card-feature-section-master/design/desktop-design.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
